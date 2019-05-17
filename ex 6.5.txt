@@ -1,0 +1,5 @@
+string = "X-DSPAM-Confidence:    0.8475";
+ipos=string.find(':')
+piece=string[ipos+2:]
+value=float(piece)
+print(value)

@@ -1,0 +1,16 @@
+score=input("enter score")
+g=float(score)
+if g>=0.9:
+    grade='A'
+elif g>=0.8:
+    grade='B'
+elif g>=0.7:
+    grade='C'
+elif g>=0.6:
+    grade='D'
+elif g<0.6:
+    grade='F'
+else:
+    grade='an error'
+    
+print(grade)

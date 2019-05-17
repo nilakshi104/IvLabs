@@ -1,0 +1,27 @@
+largest=None
+smallest=None
+while True:
+    num=input('enter number')
+    if num=='done':
+        break
+    else:
+        try:
+           k=float(numm)
+        except:
+           print('Invalid input')
+           continue
+        else:
+            if largest is None:
+                largest=k
+            if k>largest:
+                largest=k
+        
+            if smallest is None:
+                smallest=k
+            if k<smallest:
+                smallest=k
+    
+print('Maximum is',int(largest))
+print('Minimum is',int(smallest))
+    
+    

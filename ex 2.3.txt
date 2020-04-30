@@ -1,4 +1,4 @@
-hrs=input("enter hours")
-rate=input("enter rate per hour")
+hrs=input("kindly enter hours")
+rate=input("kindly enter rate per hour")
 gpay=float(hrs)*float(rate)
 print(gpay)
